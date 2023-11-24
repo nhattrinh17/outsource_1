@@ -1,0 +1,18 @@
+.wrapper {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.lable {
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+.input__checkbox {
+    border-radius: 10px;
+
+    &:checked {
+        background-color: #00c0f4;
+    }
+}

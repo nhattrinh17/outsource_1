@@ -1,0 +1,39 @@
+.uicore__fromfroup--wrapper {
+    position: relative;
+    background-color: transparent;
+    margin: 20px auto 0 auto;
+}
+
+.uicore__fromfroup--lable {
+    display: block;
+    color: #555;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 0 12px 12px;
+    transition: all linear 0.3s;
+}
+
+.uicore__fromfroup--box {
+    border: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.uicore__fromfroup--input {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 8px 12px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #555;
+    width: 100%;
+}
+
+.uicore__fromfroup--icon {
+    width: 20px;
+    background-color: transparent;
+    margin: 2px 4px 6px 12px;
+    transition: all linear 0.3s;
+}

@@ -1,0 +1,41 @@
+.title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.wrapper__select {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    &:focus {
+        border-color: #00c0f4;
+        outline: 0;
+        box-shadow: 0 0 0 0.2px #5db497;
+    }
+
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar {
+        border-radius: 20px;
+        width: 6px;
+        height: 50%;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #00c0f4;
+        border-radius: 10px;
+    }
+}
+
+.select__option--icon {
+    padding: 4px;
+}

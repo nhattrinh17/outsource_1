@@ -1,0 +1,57 @@
+.uicore__fromfroup--wrapper {
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    // justify-content: center;
+    align-items: flex-end;
+    margin: 38px auto 20px auto;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background-color: #00c0f4;
+        transition: 0.4s;
+    }
+}
+
+.uicore__fromfroup--lable {
+    display: block;
+    color: #d9d9d9;
+    position: absolute;
+    top: 6px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: all linear 0.3s;
+}
+
+.uicore__fromfroup--forcus {
+    top: -27px;
+    transition: all linear 0.3s;
+}
+
+.uicore__fromfroup--box {
+    flex-grow: 1;
+}
+
+.uicore__fromfroup--input {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #555;
+    width: 100%;
+}
+
+.uicore__fromfroup--icon {
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    transition: all linear 0.3s;
+}
